@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="scriipt.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="dark">
+        <button class="toggle-dark" id="dark" onclick="darkmode()"><box-icon name="bulb" color=""></box-icon></button>
+    </div>
+    <div class="profile-card lt" id="card">
+        <div class="image">
+            <img src="Profile.jpeg" id="card" class="profile-img" alt="profile-img">
+        </div>
+        <div class="text-data lt" id="card2">
+            <span class="name">Ahmed Bahaa</span>
+            <span class="job">Developer</span>
+        </div>
+        <div class="media-buttons">
+            <a href="#" class="link" style="background: #4267b2;">
+                <box-icon type="logo" name="facebook" color="#fff" size="18px"></box-icon>
+            </a>
+            <a href="#" class="link" style="background: #1da1f2;">
+                <box-icon type="logo" name="twitter" color="#fff" size="18px"></box-icon>
+            </a>
+            <a href="#" class="link" style="background: #e1306c;">
+                <box-icon type="logo" name="instagram" color="#fff" size="18px"></box-icon>
+            </a>
+            <a href="#" class="link">
+                <box-icon type="logo" name="linkedin" color="#fff" size="18px"></box-icon>
+            </a>
+        </div>
+        <div class="buttons" id="card">
+            <button class="button">You like coffee?</button>
+            <button class="button">Message me</button>
+        </div>        
+        <div class="text" id="card">
+            <p>Hello, I am a software enghineer who likes coffee and video games and this is a profile card showcasing my love for coffee</p>
+        </div>
+    </div>
+</body>
+</html>
